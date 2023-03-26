@@ -8,6 +8,13 @@
 	z-index: 3;
 }
 
+body{
+	/* background: linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(120,33,33,1) 23%, rgba(0,0,0,1) 100%); */
+	background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+
+
 li{
 	list-style: none;
 }
@@ -47,6 +54,7 @@ a{
 }
 
 .about_text{
+	color: white;
 	text-align: center;
 	font-family: Roboto;
 }
@@ -204,3 +212,12 @@ div.opening_video {
 	transform: translate(-50%,-50%) scale(1);
   }
 
+  .like-container .fb-like{
+	height: 40px;
+	width: 100%;
+	background-color: #2F4F4F;
+	object-position: center;
+	
+  }
+
+ 
