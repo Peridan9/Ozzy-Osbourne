@@ -6,6 +6,7 @@
 	background: black;
 	margin: auto;
 	z-index: 3;
+	top: 0;
 }
 
 body{
@@ -13,7 +14,29 @@ body{
 	background-image: linear-gradient(to right, #434343 0%, black 100%);
 }
 
+#spa{
+	color: white;
+	font-family: Roboto;
+}
 
+h1 {
+	font-size: 35px;
+	font-weight: 900;
+	color: #f95959;
+}	
+
+h2 {
+	font-size: 35px;
+	font-weight: 900;
+	color: #f95959;
+}	
+
+h3 {
+	font-family: Lora;
+	font-size: 35px;
+	font-weight: 900;
+	color: #f70776;
+}	
 
 li{
 	list-style: none;
@@ -22,6 +45,23 @@ li{
 a{
 	color: white;
 	text-decoration: none;
+}
+
+p{
+	color: white;
+	background: white;
+	font-family: Roboto;
+}
+
+form{
+	color: white;
+	font-family: Roboto;
+}
+
+button{
+	color: white;
+	font-family: Roboto;
+	background-color: #434343;
 }
 
 .navbar{
@@ -212,12 +252,15 @@ div.opening_video {
 	transform: translate(-50%,-50%) scale(1);
   }
 
-  .like-container .fb-like{
+  .like-container {
 	height: 40px;
 	width: 100%;
-	background-color: #2F4F4F;
+	background-color: #f95959;
+	opacity: 75%;
 	object-position: center;
 	
   }
+
+
 
  
